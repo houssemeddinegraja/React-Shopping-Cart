@@ -1,0 +1,28 @@
+.cart {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.cart-table tfoot td {
+  font-weight: bold;
+  border-bottom: none;
+}
